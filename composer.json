@@ -1,0 +1,24 @@
+{
+    "name": "christophercastro/rock-paper-scissors",
+    "description": "Client-Server rock, paper scissors game written in PHP",
+    "type": "project",
+    "require": {
+        "php": "^7.0",
+        "ext-sockets": "*",
+        "ext-pcntl": "*",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\": "tests/",
+            "Game\\": "src/"
+        }
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Christopher Castro",
+            "email": "y2k2000@gmail.com"
+        }
+    ]
+}
